@@ -215,12 +215,14 @@
 	
 	section[role=main] h3 {
 		border-bottom: 1px solid #e1e1e1;
-		padding: 0 0 20px 60px;
+		padding: 0 0 20px 0px;
 		margin-top: 0px;
 		position: relative;
+		display: flex;
+		align-items:center;
  	}
 	
-	section[role=main] h3:after, h3:before {
+	/*section[role=main] h3:after, h3:before {
 		content: ' ';
 		display: block;
 		height: 50px;
@@ -228,20 +230,20 @@
 		position: absolute;
 		top: -15px;
 		width: 50px;
-	}
+	}*/
 	
-	section[role=main] h3:before {
+	/*section[role=main] h3:before {
 		background-color: #33a4c9;
 		border-radius: 25px;
-	}
+	}*/
 	
 		/***************
 		/* Pictos titres
 		***************/
 		
-		section[role=main] h3:after {
+		/*section[role=main] h3:after {
 			background:url('../img/pictos-titre.png') no-repeat 11px 10px;
-		}
+		}*/
 		
 		section[role=main] .competences h3:after {
 			background-position: 11px -34px;
